@@ -106,11 +106,8 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "깊어졌음 좋겠다"
   location         : "경남 진주시"
-  email            : donghyeon009@gmail.com
+  email            : "donghyeon009@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "donghyeon009@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DonghyeonKang"
