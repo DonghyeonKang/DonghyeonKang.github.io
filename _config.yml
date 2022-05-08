@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "기록하는 삶"
+title                    : "동핸아 쓰고자자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Donghyeon Kang"
+name                     : "동헤이"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,7 +105,6 @@ author:
   name             : "Donghyeon Kang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "깊어졌음 좋겠다"
-  location         : "경남 진주시"
   email            : "donghyeon009@gmail.com"
   links:
     - label: "GitHub"
