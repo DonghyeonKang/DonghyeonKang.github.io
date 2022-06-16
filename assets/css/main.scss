@@ -1,8 +1,10 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+// # Only the main Sass file needs front matter (the dashes are enough)
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// 폰트
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2');
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff');
