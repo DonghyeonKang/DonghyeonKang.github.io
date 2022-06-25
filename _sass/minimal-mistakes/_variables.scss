@@ -67,9 +67,9 @@ $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
-$lighter-gray: mix(#fff, $gray, 90%) !default;
+$lighter-gray: #2c3032 !default;
 
-$background-color: #fff !default;
+$background-color: #5f6365 !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
