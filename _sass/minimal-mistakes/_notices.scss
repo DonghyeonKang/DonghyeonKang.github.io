@@ -54,7 +54,7 @@
   }
 
   code {
-    background-color: mix($background-color, $notice-color, $code-notice-background-mix)
+    background-color: mix(#fff, $notice-color, 95%)
   }
 
 	pre code {
