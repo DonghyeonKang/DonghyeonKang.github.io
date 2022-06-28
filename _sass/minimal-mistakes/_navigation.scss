@@ -198,6 +198,7 @@
 
     &.site-title {
       margin-left: 0;
+      font-family: "Cafe24Oneprettynight",Helvetica,"Helvetica Neue",Arial,sans-serif;
     }
   }
 
@@ -443,6 +444,7 @@
 
   a {
     color: inherit;
+    font-family: $cute;
   }
 
   .active {
@@ -504,7 +506,7 @@
      ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $cute;
   color: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;
