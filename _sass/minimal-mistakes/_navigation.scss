@@ -56,6 +56,8 @@
   margin-top: 1em;
   padding-top: 1em;
   width: 100%;
+  display: flex;
+  justify-content: center;
 
   ul {
     margin: 0;
@@ -182,7 +184,7 @@
   a {
     display: block;
     margin: 0 1rem;
-    color: $masthead-link-color;
+    color: #eaeaea;
     text-decoration: none;
     -webkit-transition: none;
     transition: none;

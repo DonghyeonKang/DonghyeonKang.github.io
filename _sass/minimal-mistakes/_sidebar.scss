@@ -134,13 +134,9 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
+    max-width: 9em;
+    min-width: 4.5em;
+    border-radius: 10%;
   }
 }
 
@@ -164,6 +160,10 @@
   }
 }
 
+.profile__img {
+  max-width: 6em;
+}
+
 .author__name {
   margin: 0;
 
@@ -172,6 +172,7 @@
     margin-bottom: 10px;
   }
 }
+
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
