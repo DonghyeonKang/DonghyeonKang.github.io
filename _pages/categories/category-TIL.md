@@ -1,3 +1,4 @@
+---
 title: "TIL"
 layout: archive
 permalink: categories/TIL
@@ -6,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.['TIL'] %}
+{% assign posts = site.categories.TIL %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
