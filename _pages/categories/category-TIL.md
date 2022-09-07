@@ -1,5 +1,5 @@
 ---
-title: "C++ 프로그래밍"
+title: "TIL"
 layout: archive
 permalink: categories/TIL
 author_profile: true
