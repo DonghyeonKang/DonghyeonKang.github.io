@@ -82,6 +82,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Shorts" %}
+                        <li><a href="/categories/Shorts" class="">Shorts({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Seminar" %}
                         <li><a href="/categories/Seminar" class="">Seminar({{category[1].size}})</a></li>
                     {% endif %}
