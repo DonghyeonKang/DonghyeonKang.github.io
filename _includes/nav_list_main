@@ -85,7 +85,7 @@
         <span class="nav__sub-title">Project</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Project" %}
+                    {% if category[0] == "Arambyeol" %}
                         <li><a href="/categories/Arambyeol" class="">Arambyeol({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
