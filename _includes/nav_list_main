@@ -84,10 +84,6 @@
                     {% if category[0] == "TIL" %}
                         <li><a href="/categories/TIL" class="">TIL({{category[1].size}})</a></li>
                     {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "Error" %}
                         <li><a href="/categories/Error" class="">Error({{category[1].size}})</a></li>
                     {% endif %}
