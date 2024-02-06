@@ -29,6 +29,9 @@
                     {% if category[0] == "PL" %}
                         <li><a href="/categories/PL" class="">PL({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "Architecture" %}
+                        <li><a href="/categories/Architecture" class="">Architecture({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Algorithm</span>
